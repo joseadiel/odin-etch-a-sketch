@@ -2,7 +2,8 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 80px;
+    flex-direction: column;
+    margin: 50px;
 }
 
 .container {
@@ -10,6 +11,7 @@ body {
     flex-wrap: wrap;
     height: 400px;
     width: 400px;
+    padding: 50px;
 }
 
 .square {
@@ -17,4 +19,20 @@ body {
     box-sizing: border-box;
     width: 6.25%;
     height: 6.25%;
+}
+
+.square32 {
+    border: 0.1px solid black;
+    box-sizing: border-box;
+    width: 3.125%;
+    height: 3.125%;
+}
+
+.change {
+    background-color: white;
+    padding: 8px 14px 8px 14px;
+    border-radius: 6px;
+    text-align: center;
+    font-family: Arial;
+    font-size: 18px;
 }
